@@ -10,9 +10,9 @@
    </head>
    <body style="background-color: rgba(123,108,90,255);">
       <?php 
-         $user = 'id18784902_prajwal';
-         $password = '\RS_7Zv1%jooL*3m';
-         $database = 'id18784902_dbhost'; 
+         $user = 'root';
+         $password = '';
+         $database = 'LMS'; //or which one U create that name 
          $con = mysqli_connect("localhost", $user, 
                          $password, $database);
          
